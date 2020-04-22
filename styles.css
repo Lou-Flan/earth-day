@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#earth {
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	width: auto;
+	height: 50vh;
+	z-index: 10;
+}
+
+.container {
+	filter: drop-shadow(1px 1px 20px white);
+	width: 100vw;
+	height: 100vh;
+}
+
+.foreground {
+	background: black;
+	width: 100vw;
+}
+
+.star {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0.5em;
+	height: 0.5em;
+	border-radius: 50%;
+	z-index: 1;
+}
